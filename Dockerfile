@@ -1,8 +1,8 @@
 
-
-
-
 FROM openjdk:8-jdk-alpine
-COPY  shop-1.0.jar /app.jar
-EXPOSE 8083
-ENTRYPOINT ["java", "-jar", "/app.jar"]
+RUN addgroup -S spring && adduser -S spring -G spring
+USER spring:spring
+ARG JAR_FILE=shop-1.0.jar
+COPY ${JAR_FILE} app.jar
+ENTRYPOINT ["java","-jar","/app.jar"]
+
