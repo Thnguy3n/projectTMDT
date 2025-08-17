@@ -1,4 +1,3 @@
-<img width="970" height="461" alt="image" src="https://github.com/user-attachments/assets/bcbc0457-83cd-44f6-9155-d0313f3838ce" /># Ecommerce
 VIDEO DEMO: https://youtu.be/LECXp_U838g?si=DOR0y-HVi96A0pIb
 
 # ABCSHOP – Hệ thống thương mại điện tử bán quần áo
